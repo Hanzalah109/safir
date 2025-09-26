@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Safir ul Quran Academy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <!-- Logo Image -->
+                <a href="#home">
+                    <img src="logo.png" alt="Safir ul Quran Academy Logo" class="logo-img">
+                </a>
+            </div>
+
+            <!-- Hamburger Menu (Mobile) -->
+            <button class="hamburger" id="hamburger">
+                ☰
+            </button>
+
+           <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cources.html">Courses</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="testimionals.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="contact-hero" class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch With Us</h1>
+            <p>We're here to answer your questions and help you begin your Quranic journey. Reach out to us through any of the following methods.</p>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section id="contact-methods" class="contact-methods">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Methods</h2>
+                <p>Choose the most convenient way to get in touch with our team</p>
+            </div>
+            
+            <div class="methods-grid">
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>Quickest way to get answers to your questions. Our support team is available via WhatsApp during business hours.</p>
+                    <a href="https://wa.me/1234567890" class="method-link" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Message Us
+                    </a>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone Call</h3>
+                    <p>Speak directly with our enrollment specialists who can guide you through the registration process.</p>
+                    <a href="tel:+11234567890" class="method-link">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+                
+                <div class="method-card">
+                    <div class="method-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Send us a detailed message and we'll respond within 24 hours with comprehensive information.</p>
+                    <a href="mailto:info@safirulquran.com" class="method-link">
+                        <i class="fas fa-envelope"></i> Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form-section" class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-info">
+                    <h3>Send Us a Message</h3>
+                    <p>Fill out the form below and our team will get back to you as soon as possible. We typically respond within 2-4 hours during business days.</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Response Time</h4>
+                            <p>2-4 hours during business hours (9 AM - 6 PM GMT)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Global Support</h4>
+                            <p>We support students from all time zones with multilingual staff.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Free Consultation</h4>
+                            <p>All inquiries include a free 15-minute consultation with our education experts.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="country">Country *</label>
+                        <select id="country" class="form-control" required>
+                            <option value="">Select your country</option>
+                            <option value="US">United States</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="CA">Canada</option>
+                            <option value="AU">Australia</option>
+                            <option value="PK">Pakistan</option>
+                            <option value="IN">India</option>
+                            <option value="AE">United Arab Emirates</option>
+                            <option value="SA">Saudi Arabia</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interest">Course Interest</label>
+                        <select id="interest" class="form-control">
+                            <option value="">Select course interest</option>
+                            <option value="tajweed">Tajweed Classes</option>
+                            <option value="hifz">Hifz Program</option>
+                            <option value="nazra">Nazra Quran</option>
+                            <option value="arabic">Basic Arabic</option>
+                            <option value="notsure">Not Sure Yet</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="studentAge">Student Age (if applicable)</label>
+                        <input type="number" id="studentAge" class="form-control" min="4" max="80">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" class="form-control" placeholder="Please share any specific questions or requirements..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq-section" class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about enrollment and communication</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is the best way to contact for urgent inquiries?</span>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For urgent matters, we recommend using WhatsApp as it provides the fastest response time. Our support team monitors WhatsApp during business hours (9 AM - 6 PM GMT) and typically responds within minutes. For time-sensitive enrollment questions, you can also call our direct enrollment line.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer support in languages other than English?</span>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have multilingual support staff who can assist you in Arabic, Urdu, French, and Spanish. When you contact us, please let us know your language preference, and we'll connect you with a representative who speaks your language. Our teachers also offer instruction in multiple languages to accommodate diverse student needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How soon can my child start classes after enrollment?</span>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Once enrollment is complete, we can typically schedule the first class within 24-48 hours. We'll work with you to find a teacher who matches your preferred schedule, language requirements, and teaching style. The matching process usually takes 1-2 business days, after which your child can begin their Quranic education journey.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What information should I include in my inquiry?</span>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To help us provide the most accurate information, please include: the student's age and current Quran reading level, your preferred schedule and time zone, any specific learning goals (memorization, Tajweed mastery, etc.), language preferences, and any special requirements. The more details you provide, the better we can tailor our response to your needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer trial classes before enrollment?</span>
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer a free 30-minute trial class with one of our qualified teachers. This allows you to experience our teaching methodology, interact with the teacher, and assess the online learning platform. After the trial, you can decide if you'd like to proceed with enrollment. Contact us to schedule your complimentary trial session.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Map Section -->
+<section id="map-section" class="map-section">
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d207.6053027768003!2d73.09531192762257!3d33.639412697483486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1758802668170!5m2!1sen!2s" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <!-- Overlay Text -->
+    <div class="map-overlay">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Safir ul  Quran Academy</h3>
+      <p>Servicing students worldwide through our online platform</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CTA Section -->
+    <section id="cta-section" class="cta-section">
+        <div class="container">
+            <h2>Ready to Begin Your Quranic Journey?</h2>
+            <p>Take the first step toward Quranic mastery with our qualified teachers and structured learning programs.</p>
+            <div class="cta-buttons">
+                <a href="pricing.html" class="cta-button">View Pricing Plans</a>
+                <a href="tel:+11234567890" class="cta-button secondary">Call Now: +1 (123) 456-7890</a>
+            </div>
+        </div>
+    </section>
+
+      <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-container">
+                
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <h3>Safir ul Quran</h3>
+                    <p>Learn Quran online with qualified teachers from the comfort of your home.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923001234567" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#teachers">Teachers</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> info@safirulquran.com</li>
+                        <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fab fa-whatsapp"></i> +92 300 1234567</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="copyright-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-service.html">Terms of Service</a>
+                </div>
+                <p>
+                    © 2025 Safir ul Quran Academy. Developed by 
+                    <a href="https://www.codigency.com" class="codigency" target="_blank">Codigency</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
